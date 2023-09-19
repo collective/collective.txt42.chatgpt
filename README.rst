@@ -85,8 +85,6 @@ Provided by awesome people ;)
 Contributors
 ------------
 
-Put your name here, you deserve it!
-
 - Roland Fasching:: https://www.cloud19.at/
 
 
