@@ -69,6 +69,9 @@ Use pyenv, cookie-cutter & mxdev for a quick Plone installment::
 - Install the addon in the control panel
 - A Chat-GPT button appears in TinyMCE Editor
 
+.. image:: docs/editor.jpg
+    :width: 350
+
 Notes 
 -----
 
