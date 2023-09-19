@@ -14,6 +14,8 @@
   <plone:static
     directory="tinymce"
     type="theme"
+    name="collective.txt42.chatgpt"
+
   />
 
   <genericsetup:registerProfile

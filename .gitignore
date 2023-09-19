@@ -13,6 +13,13 @@ develop-eggs/
 downloads/
 eggs/
 fake-eggs/
+include/
+instance/
+lib/
 parts/
 dist/
 var/
+venv/
+constraints-mxdev.txt
+pyvenv.cfg
+requirements-mxdev.txt

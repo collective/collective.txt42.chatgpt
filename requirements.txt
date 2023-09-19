@@ -1,1 +1,8 @@
 -r requirements_plone60.txt
+
+cookiecutter
+Plone
+-e .
+
+# Debugging
+plone.reload

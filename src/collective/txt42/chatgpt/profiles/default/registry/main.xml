@@ -6,7 +6,7 @@
     <record name="plone.custom_plugins" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="custom_plugins"
         purge="false">
         <value>
-            <element>chat-gpt|++theme++collective.text42.chatgpt/tinymce/plugin/plugin.min.js</element>
+            <element>chat-gpt|++theme++collective.txt42.chatgpt/plugin/js/plugin.min.js</element>
         </value>
     </record>
 
@@ -14,7 +14,7 @@
     <record name="plone.other_settings" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="other_settings">
         <value>
 {
-   "apiKey": "BkEEixLA" 
+    "apiKey": "TXAIAUTO"
 }
         </value>
     </record>
