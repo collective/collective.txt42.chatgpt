@@ -36,28 +36,9 @@ Plone addon for ChatGPT
 Features
 --------
 
-- Can be bullet points
+- Integrates the txt42.at CHAT-Gpt TinyMCE-Plugin into Plone CMS:: https://txt42.ai/
 
 
-Examples
---------
-
-This add-on can be seen in action at the following sites:
-- Is there a page on the internet where everybody can see the features?
-
-
-Documentation
--------------
-
-Full documentation for end users can be found in the "docs" folder, and is also available online at http://docs.plone.org/foo/bar
-
-
-Translations
-------------
-
-This product has been translated into
-
-- Klingon (thanks, K'Plai)
 
 
 Installation
@@ -75,6 +56,24 @@ Install collective.txt42.chatgpt by adding it to your buildout::
 
 and then running ``bin/buildout``
 
+Alternative Installation
+------------------------
+
+Use pyenv, cookie-cutter & mxdev for a quick Plone installment::
+
+   $ python3 -m venv venv
+   $ venv/bin/pip install -U "pip" "wheel" "cookiecutter" "mxdev"
+   $make build
+
+and then running ``make start``
+Access Zope here:: http://127.0.0.1:8080/ and 'Create a Classic Plone Site'
+
+Notes 
+-----
+
+- The installation of the Plugin may changes prior TinyMCE Settings
+- Use your own API Key and change it in TinyMCE Settings control panel -> Advanced
+- More Information:: https://txt42.ai/
 
 Authors
 -------
@@ -87,7 +86,7 @@ Contributors
 
 Put your name here, you deserve it!
 
-- ?
+- Roland Fasching:: https://www.cloud19.at/
 
 
 Contribute
