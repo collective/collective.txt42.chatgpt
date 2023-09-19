@@ -3,6 +3,24 @@
     xmlns:i18n="http://xml.zope.org/namespaces/i18n"
     i18n:domain="collective.txt42.chatgpt">
 
-<!-- -*- extra stuff goes here -*- -->
+    <record name="plone.custom_plugins" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="custom_plugins"
+        purge="false">
+        <value>
+            <element>chat-gpt|++theme++collective.text42.chatgpt/tinymce/plugin/plugin.min.js</element>
+        </value>
+    </record>
+
+
+    <record name="plone.other_settings" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="other_settings">
+        <value>
+{
+   "apiKey": "BkEEixLA" 
+}
+        </value>
+    </record>
+
+    <record name="plone.toolbar" interface="Products.CMFPlone.interfaces.controlpanel.ITinyMCESchema" field="toolbar">
+        <value>ltr rtl | undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | unlink plonelink ploneimage | chat-gpt</value>
+    </record>
 
 </registry>
