@@ -13,7 +13,7 @@ default_context:
     initial_user_name: admin
     initial_user_password: admin
     load_zcml:
-        package_includes: ['plone.reload']
+        package_includes: ['collective.txt42.chatgpt','plone.reload']
     db_storage: direct
     db_blobs_location: '{{ cookiecutter.location_clienthome }}/blobstorage'
     debug_mode: on

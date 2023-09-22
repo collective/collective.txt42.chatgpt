@@ -39,8 +39,8 @@ Features
 - Integrates the txt42.at CHAT-Gpt TinyMCE-Plugin into Plone CMS:: https://txt42.ai/
 
 
-Installation
-------------
+Installation with buildout
+--------------------------
 
 Install collective.txt42.chatgpt by adding it to your buildout::
 
@@ -54,10 +54,10 @@ Install collective.txt42.chatgpt by adding it to your buildout::
 
 and then running ``bin/buildout``
 
-Alternative Installation
+Recommended Installation
 ------------------------
 
-Use pyenv, cookie-cutter & mxdev for a quick Plone installment::
+Use pyenv, cookie-cutter & mxdev for a Plone 6 installment::
 
    $ python3 -m venv venv
    $ venv/bin/pip install -U "pip" "wheel" "cookiecutter" "mxdev"
