@@ -59,8 +59,6 @@ Recommended Installation
 
 Use pyenv, cookie-cutter & mxdev for a Plone 6 installment::
 
-   $ python3 -m venv venv
-   $ venv/bin/pip install -U "pip" "wheel" "cookiecutter" "mxdev"
    $ make build
 
 - and then running ``make start``
